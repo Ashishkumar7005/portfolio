@@ -197,13 +197,18 @@ img {
 .home__data {
   align-self: center;
   flex-wrap: wrap;
+  z-index: 10;
 }
 .home__data p{
 margin-bottom: 20px;
+z-index: 10;
+font-size: 20px;
+font-weight: 600;
 }
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  z-index: 10;
 }
 
 .home__title-color {
@@ -230,6 +235,7 @@ margin-bottom: 20px;
   position: absolute;
   right: 0;
 top: 171px;
+z-index: 0;
 }
 
 .home__blob {
