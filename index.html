@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Ashish</span><br> Web Developer</h1>
+                <p>I am pursuing my B.Tech from Bhagwan Parshuram Institute of Technology in Electronic and
+                    Communication
+                    Engineering. I am a Front-End Web Developer and working on my way to become a Full Stack Developer. I
+                    have a keen interest in coding and learning various new technologies to become better in the field of
+                    work I Love .</p>
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/ashish-kumar-86815b136/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Ashishkumar7005" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="coding-project-1884980-1597918.webp" alt="">
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <a href="https://todo-list-nine-bay.vercel.app/" target="_blank" class="work__img">
+                    <img src="Todo-img.jpg" alt="">
+                    <h3>Todo-List</h3>
+                    <div class="buttons">
+                        <button class="live">View Live</button>
+                    </div>
+                </a>
+                <a href="https://e-commerce-omega-coral.vercel.app/" target="_blank" class="work__img">
+                    <img src="e-commerce.webp" alt="">
+                    <h3>E-commerce Website</h3>
+                    <div class="buttons">
+                        <button class="live">View Live</button>
+                    </div>
+                </a>
+                <a href="https://calculator-rust-chi.vercel.app/" target="_blank" class="work__img">
+                    <img src="calculator.jpg" alt="">
+                    <h3>Calculator</h3>
+                    <div class="buttons">
+                        <button class="live">View Live</button>
+                    </div>
+                </a>
+                <a href="https://image-search-iota.vercel.app/" target="_blank" class="work__img">
+                    <img src="image-search.jpg" alt="">
+                    <h3>Image Search Engine</h3>
+                    <div class="buttons">
+                        <button class="live">View Live</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text"  placeholder="Name" class="contact__input">
+                    <input type="mail"  placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"
+                        placeholder="Message..."></textarea>
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Ashish Kumar. All rigths reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="script.js"></script>
+</body>
+
+</html>
