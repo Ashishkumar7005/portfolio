@@ -32,11 +32,14 @@ const sr = ScrollReveal({
 
 const inputField = document.querySelectorAll(".contact__input");
 
-const btn = document.querySelector(".contact__button");
-
-btn.addEventListener("click",()=>{
-inputField.innerHTML.value = "";
-})
+const btn = document.querySelector(".submitbtn");
+function formSubmit(){
+    btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        inputField.textContent = "";
+    })
+}
+    
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
